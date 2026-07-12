@@ -23,11 +23,11 @@ export default function WeatherCard() {
   }, []);
 
   return (
-    <div className="w-full max-w-[520px] flex flex-col items-center text-center gap-4">
+    <div className="w-full max-w-130 flex flex-col items-center text-center gap-4">
 
       {/* ICON */}
       <img
-        src="/wether.png"
+        src="wether.png"
         alt="weather icon"
         className="w-36 h-36 object-contain"
       />

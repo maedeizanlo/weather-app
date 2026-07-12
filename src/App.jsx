@@ -57,13 +57,13 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-200 px-3 sm:px-6 md:px-10 flex flex-col items-center">
+    <div className="min-h-screen bg-linear-to-b from-blue-100 to-blue-200 px-3 sm:px-6 md:px-10 flex flex-col items-center">
 
-      <div className="w-full max-w-[1200px]">
+      <div className="w-full max-w-300">
         <Header />
       </div>
 
-      <div className="w-full max-w-[1200px] flex flex-col items-center gap-6 mt-6">
+      <div className="w-full max-w-300 flex flex-col items-center gap-6 mt-6">
 
         <div className="w-full flex justify-center">
           <WeatherCard weather={weather} />

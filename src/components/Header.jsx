@@ -10,11 +10,11 @@ export default function Header() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
-          src="/mapp.png" 
-          alt="Mashhad Map"
-          className="w-10 h-10 cursor-pointer hover:scale-110 transition"
-        />
+   <img
+  src={`${import.meta.env.BASE_URL}mapp.png`}
+  alt="Mashhad Map"
+  className="w-10 h-10 cursor-pointer hover:scale-110 transition"
+/>
       </a>
 
     </header>
